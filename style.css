@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;900&display=swap');
+
 * {box-sizing: border-box;}
 html, body {
     height: 100%;
     width: 100%;
+    background-color: #E7EFF8;
+}
+.homepage header{
+    background-color: #FF5301;
+    margin-bottom: 80px;
 }
 body{
 font-family: "Raleway";
@@ -10,7 +16,7 @@ font-family: "Raleway";
 .homepage main{
 display: flex;
 width: 70%;
-margin:auto;
+margin: auto;
 }
 img{
     width: 100%;
@@ -23,24 +29,26 @@ img{
     flex-wrap: wrap;
     width: 70%;
     margin: auto;
-    background-color: #333;
 }
 .card {
     border: 2px solid #333;
     width: 31%;
     margin: 1%;
 }
-.label {
-    text-align: center;
-    color: #fff;
-    background: #333;
-}
+
 .content {
     text-align: center;
 }
+.stjohns-page header{
+    background-color: #90AF45;
+    margin-bottom: 80px;
+}
 .stjohns-page .label{
-    background: green;
+    background: #90AF45;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
 }
 .stjohns-page .card {
-    border:2px solid green;
+    border: 5px solid #90AF45;
 }
