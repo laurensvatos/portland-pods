@@ -1,8 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;900&display=swap');
 * {box-sizing: border-box;}
 html, body {
     height: 100%;
     width: 100%;
 }
+body{
+font-family: "Raleway";
+}
+.homepage main{
+display: flex;
+width: 70%;
+margin:auto;
+}
+img{
+    width: 100%;
+}
+.homepage main div{
+    flex: 1;
+    }
 .main {
     display: flex;
     flex-wrap: wrap;
