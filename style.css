@@ -76,20 +76,6 @@ html, body {
   top: 0;
   transform: rotate(135deg);
 }
-
-.menu-mobile {
-  background-color: #90AF45;
-  height: 100vh;
-  position: fixed;
-  width: 100%;
-  z-index: 999;
-  padding-top: 150px;
-  font-family: "Raleway";
-  font-size: 60px;
-  font-weight: bold;
-  text-align: center;
-}
-
 .menu-mobile,
 .menu-mobile a {
   display: flex;
@@ -103,12 +89,6 @@ html, body {
   height: 70px;
   line-height: 70px;
 }
-.menu-mobile a:hover {
-  color: #FF5301;
-}
-
-.desktop,
-.menu-desktop,
 .menu-mobile {
   display: none;
 }
@@ -123,14 +103,26 @@ html, body {
 body{
 font-family: "Raleway";
 }
+img{
+    width: 100%;
+}
 .homepage main{
 display: flex;
 width: 70%;
 margin: auto;
 }
-img{
-    width: 100%;
+.homepage .headings a{
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: none;
 }
+.headings a .page01{
+    color: #90AF45;
+}
+.headings a .nob-hill-page{
+    color: #FF5301;
+}
+
 .homepage main div{
     flex: 1;
     }
@@ -138,6 +130,8 @@ img{
 .content {
     text-align: center;
 }
+
+
 .stjohns-page header{
     background-color: #90AF45;
     margin-bottom: 80px;
@@ -147,7 +141,21 @@ img{
     flex: 1;
     width: 30%;
 }
-
+.stjohns-page .menu-mobile {
+    background-color: #90AF45;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    padding-top: 150px;
+    font-family: "Raleway";
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+  }
+.stjohns-page .menu-mobile a:hover {
+    color: #FF5301;
+  }
 .stjohns-page h2{
     color: #90AF45;
     font-size: 64px;
