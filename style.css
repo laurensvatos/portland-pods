@@ -115,11 +115,6 @@ margin: auto;
     font-size: 48px;
     font-weight: bold;
     text-decoration: none;
-}
-.headings a .page01{
-    color: #90AF45;
-}
-.headings a .nob-hill-page{
     color: #FF5301;
 }
 
@@ -134,12 +129,27 @@ margin: auto;
 
 .stjohns-page header{
     background-color: #90AF45;
-    margin-bottom: 80px;
+    position: fixed;
+    height: 50px;
 }
+
+.stjohns-page .logo{
+    width: 20%;
+    padding-top: 6px;
+}
+
 .stjohns-page .page-title{
     display: flex;
-    flex: 1;
-    width: 30%;
+    justify-content: center;
+    padding-left: 417px;
+}
+.stjohns-page .page-title .left{
+    flex:10%;
+    padding-top: 200px;
+}
+.stjohns-page .page-title .right{
+    flex:80%;
+    padding-top: 189px;
 }
 .stjohns-page .menu-mobile {
     background-color: #90AF45;
@@ -160,8 +170,19 @@ margin: auto;
     color: #90AF45;
     font-size: 64px;
 }
+
+.stjohns-page p{
+    width: 42%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 144px;
+    margin: auto;
+    font-size: 16px;
+}
 .stjohns-page .label{
     background: #90AF45;
+    width: 260px;
+    height: 69px;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
     color: white;
@@ -179,16 +200,32 @@ margin: auto;
     flex-wrap:wrap;
     width:70%;
     margin:auto;
+    padding-bottom: 200px;
+    padding-left: 170px;
 }
 
 .nob-hill-page header{
     background-color: #FF5301;
-    margin-bottom: 80px;
+    position: fixed;
+    height: 50px;
+}
+
+.nob-hill-page .logo{
+    width: 20%;
+    padding-top: 6px;
 }
 .nob-hill-page .page-title{
     display: flex;
-    flex: 1;
-    width: 30%;
+    justify-content: center;
+    padding-left: 417px;
+}
+.nob-hill-page .page-title .left{
+    flex:10%;
+    padding-top: 200px;
+}
+.nob-hill-page .page-title .right{
+    flex:80%;
+    padding-top: 189px;
 }
 .nob-hill-page .menu-mobile {
     background-color: #FF5301;
@@ -209,8 +246,18 @@ margin: auto;
     color: #FF5301;
     font-size: 64px;
 }
+.nob-hill-page p{
+    width: 45%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 144px;
+    margin: auto;
+    font-size: 16px;
+}
 .nob-hill-page .label{
     background: #FF5301;
+    width: 260px;
+    height: 69px;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
     color: white;
@@ -228,16 +275,32 @@ margin: auto;
     flex-wrap:wrap;
     width:70%;
     margin:auto;
+    padding-bottom: 200px;
+    padding-left: 170px;
 }
 
 .pioneer-square header{
     background-color: #FFDF59;
-    margin-bottom: 80px;
+    position: fixed;
+    height: 50px;
+}
+
+.pioneer-square .logo{
+    width: 20%;
+    padding-top: 6px;
 }
 .pioneer-square .page-title{
     display: flex;
-    flex: 1;
-    width: 30%;
+    justify-content: center;
+    padding-left: 480px;
+}
+.pioneer-square .page-title .left{
+    flex:10%;
+    padding-top: 200px;
+}
+.pioneer-square .page-title .right{
+    flex:80%;
+    padding-top: 189px;
 }
 .pioneer-square .menu-mobile {
     background-color: #FFDF59;
@@ -258,8 +321,18 @@ margin: auto;
     color: #FF5301;
     font-size: 64px;
 }
+.pioneer-square p{
+    width: 42%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 144px;
+    margin: auto;
+    font-size: 16px;
+}
 .pioneer-square .label{
     background: #FFDF59;
+    width: 260px;
+    height: 69px;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
     color: #FF5301;
@@ -277,16 +350,32 @@ margin: auto;
     flex-wrap:wrap;
     width:70%;
     margin:auto;
+    padding-bottom: 200px;
+    padding-left: 170px;
 }
 
 .hawthorne-asylum header{
     background-color: #FF9E01;
-    margin-bottom: 80px;
+    position: fixed;
+    height: 50px;
+}
+
+.hawthorne-asylum .logo{
+    width: 20%;
+    padding-top: 6px;
 }
 .hawthorne-asylum .page-title{
     display: flex;
-    flex: 1;
-    width: 30%;
+    justify-content: center;
+    padding-left: 400px;
+}
+.hawthorne-asylum .page-title .left{
+    flex:10%;
+    padding-top: 200px;
+}
+.hawthorne-asylum .page-title .right{
+    flex:80%;
+    padding-top: 189px;
 }
 .hawthorne-asylum .menu-mobile {
     background-color: #FF9E01;
@@ -307,8 +396,18 @@ margin: auto;
     color: #FF9E01;
     font-size: 64px;
 }
+.hawthorne-asylum p{
+    width: 38%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 144px;
+    margin: auto;
+    font-size: 16px;
+}
 .hawthorne-asylum .label{
     background: #FF9E01;
+    width: 260px;
+    height: 69px;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-align: center;
     color: white;
@@ -326,4 +425,11 @@ margin: auto;
     flex-wrap:wrap;
     width:70%;
     margin:auto;
+    padding-bottom: 200px;
+    padding-left: 170px;
+}
+
+footer{
+    width: 20%;
+    margin: auto;
 }
