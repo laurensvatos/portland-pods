@@ -19,7 +19,7 @@ html, body {
 .icon {
   position: fixed;
   cursor: pointer;
-  top: 5%;
+  top: 32px;
   right: 0%;
   width: 40px;
   height: 45px;
@@ -94,20 +94,39 @@ html, body {
 }
 /* END OF Mobile Menu */
 
-
+.header{
+    width:100vw;
+} 
 
 .homepage header{
     background-color: #FF5301;
     position: fixed;
     height: 50px;
+    width: 100vw;
 }
 
 .homepage .logo{
     width: 20%;
     padding-top: 6px;
 }
+.homepage .headings .stjohns-link a{
+    color:#90AF45;
+}
+.homepage .headings .nob-hill-link a{
+    color:#FF5301;
+}
+
+.homepage .headings .pioneer-link a{
+    color:#FFDF59;
+}
+
+.homepage .headings .hawthorne-link a{
+    color: #FF9E01;
+}
+
 body{
 font-family: "Raleway";
+margin: 0;
 }
 img{
     width: 100%;
@@ -440,3 +459,22 @@ footer{
     width: 20%;
     margin: auto;
 }
+
+.food-truck {
+    animation-name: move;
+    animation-duration: 6s;
+    transform: translateX(-101vw);
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  @keyframes move {
+    0% {
+      transform: translateX(-101vw);
+    }
+    100% {
+      transform: translateX(101vw);
+    }
+  }
+
+   
