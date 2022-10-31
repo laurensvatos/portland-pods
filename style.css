@@ -98,7 +98,13 @@ html, body {
 
 .homepage header{
     background-color: #FF5301;
-    margin-bottom: 80px;
+    position: fixed;
+    height: 50px;
+}
+
+.homepage .logo{
+    width: 20%;
+    padding-top: 6px;
 }
 body{
 font-family: "Raleway";
@@ -108,8 +114,9 @@ img{
 }
 .homepage main{
 display: flex;
-width: 70%;
+width: 80%;
 margin: auto;
+padding-top: 250px;
 }
 .homepage .headings a{
     font-size: 48px;
