@@ -19,7 +19,7 @@ html, body {
 .icon {
   position: fixed;
   cursor: pointer;
-  top: 32px;
+  top: 25px;
   right: 0%;
   width: 40px;
   height: 45px;
@@ -107,21 +107,35 @@ html, body {
 
 .homepage .logo{
     width: 20%;
-    padding-top: 6px;
+    padding-top: 3px;
+}
+.homepage .headings{
+    padding-top: 45px;
+}
+.homepage .headings a{
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: none;
 }
 .homepage .headings .stjohns-link a{
-    color:#90AF45;
+    color: #90AF45;
+}
+.homepage .headings .stjohns-link a:hover { text-decoration: line-through;
 }
 .homepage .headings .nob-hill-link a{
     color:#FF5301;
 }
-
+.homepage .headings .nob-hill-link a:hover { text-decoration: line-through;
+}
 .homepage .headings .pioneer-link a{
     color:#FFDF59;
 }
-
+.homepage .headings .pioneer-link a:hover { text-decoration: line-through;
+}
 .homepage .headings .hawthorne-link a{
     color: #FF9E01;
+}
+.homepage .headings .hawthorne-link a:hover { text-decoration: line-through;
 }
 
 body{
@@ -136,12 +150,6 @@ display: flex;
 width: 80%;
 margin: auto;
 padding-top: 250px;
-}
-.homepage .headings a{
-    font-size: 48px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #FF5301;
 }
 
 .homepage main div{
@@ -161,7 +169,7 @@ padding-top: 250px;
 
 .stjohns-page .logo{
     width: 20%;
-    padding-top: 6px;
+    padding-top: 2px;
 }
 
 .stjohns-page .page-title{
@@ -238,7 +246,7 @@ padding-top: 250px;
 
 .nob-hill-page .logo{
     width: 20%;
-    padding-top: 6px;
+    padding-top: 2px;
 }
 .nob-hill-page .page-title{
     display: flex;
@@ -313,7 +321,7 @@ padding-top: 250px;
 
 .pioneer-square .logo{
     width: 20%;
-    padding-top: 6px;
+    padding-top: 2px;
 }
 .pioneer-square .page-title{
     display: flex;
@@ -388,7 +396,7 @@ padding-top: 250px;
 
 .hawthorne-asylum .logo{
     width: 20%;
-    padding-top: 6px;
+    padding-top: 2px;
 }
 .hawthorne-asylum .page-title{
     display: flex;
@@ -456,10 +464,9 @@ padding-top: 250px;
 }
 
 footer{
+    margin:auto;
     width: 20%;
-    margin: auto;
 }
-
 .food-truck {
     animation-name: move;
     animation-duration: 6s;
@@ -475,6 +482,4 @@ footer{
     100% {
       transform: translateX(101vw);
     }
-  }
-
-   
+  } 
