@@ -1,10 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;900&display=swap');
 
-* {box-sizing: border-box;}
-html, body {
-    height: 100%;
-    width: 100%;
-    background-color: #E7EFF8;
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #e7eff8;
 }
 
 /* START of Mobile Menu */
@@ -44,7 +47,7 @@ html, body {
 
 .hamburger:before,
 .hamburger:after {
-  content: "";
+  content: '';
   position: absolute;
   width: 40px;
   height: 4px;
@@ -94,392 +97,389 @@ html, body {
 }
 /* END OF Mobile Menu */
 
-.header{
-    width:100vw;
-} 
-
-.homepage header{
-    background-color: #FF5301;
-    position: fixed;
-    height: 50px;
-    width: 100vw;
+.header {
+  width: 100vw;
 }
 
-.homepage .logo{
-    width: 20%;
-    padding-top: 3px;
-}
-.homepage .headings{
-    padding-top: 45px;
-}
-.homepage .headings a{
-    font-size: 48px;
-    font-weight: bold;
-    text-decoration: none;
-}
-.homepage .headings .stjohns-link a{
-    color: #90AF45;
-}
-.homepage .headings .stjohns-link a:hover { text-decoration: line-through;
-}
-.homepage .headings .nob-hill-link a{
-    color:#FF5301;
-}
-.homepage .headings .nob-hill-link a:hover { text-decoration: line-through;
-}
-.homepage .headings .pioneer-link a{
-    color:#FFDF59;
-}
-.homepage .headings .pioneer-link a:hover { text-decoration: line-through;
-}
-.homepage .headings .hawthorne-link a{
-    color: #FF9E01;
-}
-.homepage .headings .hawthorne-link a:hover { text-decoration: line-through;
+.homepage header {
+  background-color: #ff5301;
+  position: fixed;
+  height: 50px;
+  width: 100vw;
 }
 
-body{
-font-family: "Raleway";
-margin: 0;
+.logo {
+  width: 20%;
+  padding-top: 3px;
 }
-img{
-    width: 100%;
+.homepage .headings {
+  padding-top: 45px;
+  flex: 1;
 }
-.homepage main{
-display: flex;
-width: 80%;
-margin: auto;
-padding-top: 250px;
+.homepage .headings a {
+  font-size: 48px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.homepage .headings .stjohns-link a {
+  color: #90af45;
+}
+.homepage .headings .stjohns-link a:hover {
+  text-decoration: line-through;
+}
+.homepage .headings .nob-hill-link a {
+  color: #ff5301;
+}
+.homepage .headings .nob-hill-link a:hover {
+  text-decoration: line-through;
+}
+.homepage .headings .pioneer-link a {
+  color: #ffdf59;
+}
+.homepage .headings .pioneer-link a:hover {
+  text-decoration: line-through;
+}
+.homepage .headings .hawthorne-link a {
+  color: #ff9e01;
+}
+.homepage .headings .hawthorne-link a:hover {
+  text-decoration: line-through;
 }
 
-.homepage main div{
-    flex: 1;
-    }
+body {
+  font-family: 'Raleway';
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+.homepage main {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 250px;
+}
+
+.homepage main div {
+  flex: 1;
+}
 
 .content {
-    text-align: center;
+  text-align: center;
 }
 
-
-.stjohns-page header{
-    background-color: #90AF45;
-    position: fixed;
-    height: 50px;
+.stjohns-page header {
+  background-color: #90af45;
+  position: fixed;
+  height: 50px;
 }
 
-.stjohns-page .logo{
-    width: 20%;
-    padding-top: 2px;
+.stjohns-page .page-title {
+  display: flex;
+  justify-content: center;
+  padding-left: 417px;
 }
-
-.stjohns-page .page-title{
-    display: flex;
-    justify-content: center;
-    padding-left: 417px;
+.stjohns-page .page-title .left {
+  flex: 10%;
+  padding-top: 200px;
 }
-.stjohns-page .page-title .left{
-    flex:10%;
-    padding-top: 200px;
-}
-.stjohns-page .page-title .right{
-    flex:80%;
-    padding-top: 189px;
+.stjohns-page .page-title .right {
+  flex: 80%;
+  padding-top: 189px;
 }
 .stjohns-page .menu-mobile {
-    background-color: #90AF45;
-    height: 100vh;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding-top: 150px;
-    font-family: "Raleway";
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-  }
+  background-color: #90af45;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding-top: 150px;
+  font-family: 'Raleway';
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
 .stjohns-page .menu-mobile a:hover {
-    color: #FF5301;
-  }
-.stjohns-page h2{
-    color: #90AF45;
-    font-size: 64px;
+  color: #ff5301;
+}
+.stjohns-page h2 {
+  color: #90af45;
+  font-size: 64px;
 }
 
-.stjohns-page p{
-    width: 42%;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 144px;
-    margin: auto;
-    font-size: 16px;
+.stjohns-page p {
+  width: 42%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 144px;
+  margin: auto;
+  font-size: 16px;
 }
-.stjohns-page .label{
-    background: #90AF45;
-    width: 260px;
-    height: 69px;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    color: white;
+.stjohns-page .label {
+  background: #90af45;
+  width: 260px;
+  height: 69px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: white;
 }
-.stjohns-page .card{
-    display: flex;
-    flex-wrap: wrap;
-    width:25%;
-    margin:1%;
-    border: 5px solid #90AF45;
-    place-content: center;
+.stjohns-page .card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  margin: 1%;
+  border: 5px solid #90af45;
+  place-content: center;
 }
-.stjohns-page main{
-    display:flex;
-    flex-wrap:wrap;
-    width:70%;
-    margin:auto;
-    padding-bottom: 200px;
-    padding-left: 170px;
-}
-
-.nob-hill-page header{
-    background-color: #FF5301;
-    position: fixed;
-    height: 50px;
+.stjohns-page main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 200px;
+  padding-left: 170px;
 }
 
-.nob-hill-page .logo{
-    width: 20%;
-    padding-top: 2px;
+.nob-hill-page header {
+  background-color: #ff5301;
+  position: fixed;
+  height: 50px;
 }
-.nob-hill-page .page-title{
-    display: flex;
-    justify-content: center;
-    padding-left: 417px;
+
+.nob-hill-page .page-title {
+  display: flex;
+  justify-content: center;
+  padding-left: 417px;
 }
-.nob-hill-page .page-title .left{
-    flex:10%;
-    padding-top: 200px;
+.nob-hill-page .page-title .left {
+  flex: 10%;
+  padding-top: 200px;
 }
-.nob-hill-page .page-title .right{
-    flex:80%;
-    padding-top: 189px;
+.nob-hill-page .page-title .right {
+  flex: 80%;
+  padding-top: 189px;
 }
 .nob-hill-page .menu-mobile {
-    background-color: #FF5301;
-    height: 100vh;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding-top: 150px;
-    font-family: "Raleway";
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-  }
+  background-color: #ff5301;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding-top: 150px;
+  font-family: 'Raleway';
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
 .nob-hill-page .menu-mobile a:hover {
-    color: #FFDF59;
-  }
-.nob-hill-page h2{
-    color: #FF5301;
-    font-size: 64px;
+  color: #ffdf59;
 }
-.nob-hill-page p{
-    width: 45%;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 144px;
-    margin: auto;
-    font-size: 16px;
+.nob-hill-page h2 {
+  color: #ff5301;
+  font-size: 64px;
 }
-.nob-hill-page .label{
-    background: #FF5301;
-    width: 260px;
-    height: 69px;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    color: white;
+.nob-hill-page p {
+  width: 45%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 144px;
+  margin: auto;
+  font-size: 16px;
 }
-.nob-hill-page .card{
-    display: flex;
-    flex-wrap: wrap;
-    width:25%;
-    margin:1%;
-    border: 5px solid #FF5301;
-    place-content: center;
+.nob-hill-page .label {
+  background: #ff5301;
+  width: 260px;
+  height: 69px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: white;
 }
-.nob-hill-page main{
-    display:flex;
-    flex-wrap:wrap;
-    width:70%;
-    margin:auto;
-    padding-bottom: 200px;
-    padding-left: 170px;
+.nob-hill-page .card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  margin: 1%;
+  border: 5px solid #ff5301;
+  place-content: center;
 }
-
-.pioneer-square header{
-    background-color: #FFDF59;
-    position: fixed;
-    height: 50px;
+.nob-hill-page main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 200px;
+  padding-left: 170px;
 }
 
-.pioneer-square .logo{
-    width: 20%;
-    padding-top: 2px;
+.pioneer-square header {
+  background-color: #ffdf59;
+  position: fixed;
+  height: 50px;
 }
-.pioneer-square .page-title{
-    display: flex;
-    justify-content: center;
-    padding-left: 480px;
+
+.pioneer-square .page-title {
+  display: flex;
+  justify-content: center;
+  padding-left: 480px;
 }
-.pioneer-square .page-title .left{
-    flex:10%;
-    padding-top: 200px;
+.pioneer-square .page-title .left {
+  flex: 10%;
+  padding-top: 200px;
 }
-.pioneer-square .page-title .right{
-    flex:80%;
-    padding-top: 189px;
+.pioneer-square .page-title .right {
+  flex: 80%;
+  padding-top: 189px;
 }
 .pioneer-square .menu-mobile {
-    background-color: #FFDF59;
-    height: 100vh;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding-top: 150px;
-    font-family: "Raleway";
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-  }
+  background-color: #ffdf59;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding-top: 150px;
+  font-family: 'Raleway';
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
 .pioneer-square .menu-mobile a:hover {
-    color: #FF5301;
-  }
-.pioneer-square h2{
-    color: #FF5301;
-    font-size: 64px;
+  color: #ff5301;
 }
-.pioneer-square p{
-    width: 42%;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 144px;
-    margin: auto;
-    font-size: 16px;
+.pioneer-square h2 {
+  color: #ff5301;
+  font-size: 64px;
 }
-.pioneer-square .label{
-    background: #FFDF59;
-    width: 260px;
-    height: 69px;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    color: #FF5301;
+.pioneer-square p {
+  width: 42%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 144px;
+  margin: auto;
+  font-size: 16px;
 }
-.pioneer-square .card{
-    display: flex;
-    flex-wrap: wrap;
-    width:25%;
-    margin:1%;
-    border: 5px solid #FFDF59;
-    place-content: center;
+.pioneer-square .label {
+  background: #ffdf59;
+  width: 260px;
+  height: 69px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: #ff5301;
 }
-.pioneer-square main{
-    display:flex;
-    flex-wrap:wrap;
-    width:70%;
-    margin:auto;
-    padding-bottom: 200px;
-    padding-left: 170px;
+.pioneer-square .card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  margin: 1%;
+  border: 5px solid #ffdf59;
+  place-content: center;
 }
-
-.hawthorne-asylum header{
-    background-color: #FF9E01;
-    position: fixed;
-    height: 50px;
+.pioneer-square main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 200px;
+  padding-left: 170px;
 }
 
-.hawthorne-asylum .logo{
-    width: 20%;
-    padding-top: 2px;
+.hawthorne-asylum header {
+  background-color: #ff9e01;
+  position: fixed;
+  height: 50px;
 }
-.hawthorne-asylum .page-title{
-    display: flex;
-    justify-content: center;
-    padding-left: 400px;
+
+.hawthorne-asylum .page-title {
+  display: flex;
+  justify-content: center;
+  padding-left: 400px;
 }
-.hawthorne-asylum .page-title .left{
-    flex:10%;
-    padding-top: 200px;
+.hawthorne-asylum .page-title .left {
+  flex: 10%;
+  padding-top: 200px;
 }
-.hawthorne-asylum .page-title .right{
-    flex:80%;
-    padding-top: 189px;
+.hawthorne-asylum .page-title .right {
+  flex: 80%;
+  padding-top: 189px;
 }
 .hawthorne-asylum .menu-mobile {
-    background-color: #FF9E01;
-    height: 100vh;
-    position: fixed;
-    width: 100%;
-    z-index: 999;
-    padding-top: 150px;
-    font-family: "Raleway";
-    font-size: 60px;
-    font-weight: bold;
-    text-align: center;
-  }
+  background-color: #ff9e01;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  padding-top: 150px;
+  font-family: 'Raleway';
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+}
 .hawthorne-asylum .menu-mobile a:hover {
-    color: #90AF45;
-  }
-.hawthorne-asylum h2{
-    color: #FF9E01;
-    font-size: 64px;
+  color: #90af45;
 }
-.hawthorne-asylum p{
-    width: 38%;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 144px;
-    margin: auto;
-    font-size: 16px;
+.hawthorne-asylum h2 {
+  color: #ff9e01;
+  font-size: 64px;
 }
-.hawthorne-asylum .label{
-    background: #FF9E01;
-    width: 260px;
-    height: 69px;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    text-align: center;
-    color: white;
+.hawthorne-asylum p {
+  width: 38%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 144px;
+  margin: auto;
+  font-size: 16px;
 }
-.hawthorne-asylum .card{
-    display: flex;
-    flex-wrap: wrap;
-    width:25%;
-    margin:1%;
-    border: 5px solid #FF9E01;
-    place-content: center;
+.hawthorne-asylum .label {
+  background: #ff9e01;
+  width: 260px;
+  height: 69px;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: white;
 }
-.hawthorne-asylum main{
-    display:flex;
-    flex-wrap:wrap;
-    width:70%;
-    margin:auto;
-    padding-bottom: 200px;
-    padding-left: 170px;
+.hawthorne-asylum .card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  margin: 1%;
+  border: 5px solid #ff9e01;
+  place-content: center;
+}
+.hawthorne-asylum main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 200px;
+  padding-left: 170px;
 }
 
-footer{
-    margin:auto;
-    width: 20%;
+footer {
+  margin: auto;
+  width: 20%;
 }
 .food-truck {
-    animation-name: move;
-    animation-duration: 6s;
+  animation-name: move;
+  animation-duration: 6s;
+  transform: translateX(-101vw);
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes move {
+  0% {
     transform: translateX(-101vw);
-    animation-fill-mode: forwards;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
   }
-  @keyframes move {
-    0% {
-      transform: translateX(-101vw);
-    }
-    100% {
-      transform: translateX(101vw);
-    }
-  } 
+  100% {
+    transform: translateX(101vw);
+  }
+}
+@media screen and (max-width: 768px) {
+  .homepage main {
+    width: 90%;
+    padding-top: 100px;
+    flex-direction: column-reverse;
+  }
+  .logo {
+    width: 50%;
+  }
+}
