@@ -10,7 +10,6 @@ body {
   background-color: #e7eff8;
 }
 
-/* START of Mobile Menu */
 .nav {
   display: block;
   position: fixed;
@@ -95,7 +94,7 @@ body {
 .menu-mobile {
   display: none;
 }
-/* END OF Mobile Menu */
+
 
 .header {
   width: 100vw;
@@ -155,7 +154,7 @@ img {
 }
 .homepage main {
   display: flex;
-  width: 80%;
+  width: 90%;
   margin: auto;
   padding-top: 250px;
 }
@@ -166,6 +165,34 @@ img {
 
 .content {
   text-align: center;
+}
+#right-wheel,
+#left-wheel {
+  animation: wheel 5s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+#cart {
+  animation: truck 1s ease-in-out infinite alternate;
+  transform-origin: bottom;
+}
+
+@keyframes wheel{
+  from{
+    transform:rotateZ(0deg)
+  }
+  to{
+    transform:rotateZ(3600deg)
+  }
+}
+
+@keyframes truck{
+  from{
+    transform: rotateX(0deg)
+  }
+  to{
+    transform: rotateX(15deg)
+  }
 }
 
 .stjohns-page header {
